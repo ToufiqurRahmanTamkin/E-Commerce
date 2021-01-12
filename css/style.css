@@ -40,7 +40,7 @@
     color: rgb(46, 47, 48);
     border-radius: 5px;
     text-align: center;
-    padding: 10px 0px;
+    padding: 10px 10px;
     align-items: center;
 }
 #subscribe{
@@ -68,3 +68,4 @@
     border-radius: 10px;
     border: 1px solid white;
 }
+
