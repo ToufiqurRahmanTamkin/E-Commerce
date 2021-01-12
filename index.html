@@ -13,8 +13,8 @@
   </head>
   <body>
 
-    <header class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <header class=" sticky-top">
+        <nav class="container navbar navbar-expand-lg navbar-light bg-light container ">
             <div class="container-fluid">
               <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -99,9 +99,11 @@
 
     <!-- items section -->
 
-    <main class="container">
+    <main class="container mt-5">
         <section class="container overflow-hidden mt-5 categories">
-            <h3 class="alignment">ITEM HEAVEN</h3>
+            <div class="mb-5">
+              <h3 class="alignment">ITEM HEAVEN</h3>
+            </div>
             <div class="row g-5">
               <div class="col">
                <div class="p-3 rounded watch-item-color d-flex align-items-center justify-content-around">
@@ -128,9 +130,9 @@
 
           <!-- shopping items-shoes -->
 
-          <section id="shoes" class="mt-5">
+          <section id="shoes" class="mt-5 container">
               <h3 class="alignment">SHOES</h3>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
                 <div class="col">
                   <div class="card panda-card h-100 shadow">
                     <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
@@ -175,9 +177,9 @@
 
           <!-- shopping items watches -->
 
-          <section id="watch" class="mt-5">
+          <section id="watch" class="container mt-5">
             <h3 class="alignment">SMART WATCHES</h3>
-          <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
               <div class="col">
                 <div class="card panda-card h-100 shadow">
                   <img src="images/watches/w1.png" class="card-img-top" alt="...">
@@ -223,9 +225,9 @@
 
           <!-- shopping items backpack -->
 
-          <section id="backpack" class="mt-5">
+          <section id="backpack" class="container mt-5">
             <h3 class="alignment">BACKPACK</h3>
-          <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
               <div class="col">
                 <div class="card panda-card h-100 shadow">
                   <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
@@ -270,19 +272,20 @@
 
         <!-- subscribe section -->
 
-        <section id="subscribe" style="height: 300px" class=" container d-flex align-items-center justify-content-center mt-5">
-            <div class="div">
-                <h1>LET'S STAY IN TOUCH</h1>
-                <h5 style="text-align: center;" class="gray">Get updates on sales, specials and more</h5>
-                    <input style="text-align: center;" class="email" type="text" placeholder="Enter your email address...">
-                    <Button class="btn-style">SUBMIT</Button>
-
-                
-            </div>
+        <section class="container mt-5 ">
+          <h3 style="padding-top: 10px;" class="alignment">Subscribe Here</h3>
+          <div id="subscribe" style="height: 300px" class=" container d-flex align-items-center justify-content-center mt-5">
+              <div class="div">
+                  <h1>LET'S STAY IN TOUCH</h1>
+                  <h5 style="text-align: center;" class="gray">Get updates on sales, specials and more</h5>
+                      <input style="text-align: center;" class="email" type="text" placeholder="Enter your email address...">
+                      <Button class="btn-style">SUBMIT</Button>
+              </div>
+          </div>
         </section>
     </main>
 
-    <footer  class=" text-center mt-5">
+    <footer  class=" text-center mt-5 mb-5">
         <small>©2021. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small>
     </footer>
 

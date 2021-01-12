@@ -36,13 +36,11 @@
 }
 .alignment{
     
-    border: 1px solid rgb(245, 190, 190);
-    background-color: rgb(245, 179, 168);
-    color: rgb(66, 69, 70);
-    border-radius: 2em;
+    background-color: #FCEAE8;
+    color: rgb(46, 47, 48);
+    border-radius: 5px;
     text-align: center;
-    padding: 7px;
-
+    padding: 10px 0px;
     align-items: center;
 }
 #subscribe{
